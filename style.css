@@ -39,6 +39,7 @@ div{
         }
 #num1{
       padding:12px;
+            box-sizing:border-box;
 }
 #num2{
             padding:12px;
