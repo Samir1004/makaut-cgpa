@@ -38,6 +38,22 @@ div{
            padding:0;
         }
 #num1{
-      padding:10px;
-      font-size:15px;
+      padding:20px;
+      font-size:18px;
+            font-family:sans-serif;
+}
+#num2{
+            padding:20px;
+            font-size:18px;
+            font-family:sans-serif;
+}
+#num3{
+      padding:20px;
+      font-size:18px;
+            font-family:sans-serif;
+}
+#num4{
+      padding:20px;
+      font-size:18px;
+            font-family:sans-serif;
 }
