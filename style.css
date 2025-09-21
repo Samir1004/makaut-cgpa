@@ -15,8 +15,6 @@ div{
         button{
             color:beige;
             background-color: green;
-            padding:12px;
-            font-size:12px;
         }
         pre{
             color:white;
@@ -41,17 +39,13 @@ div{
         }
 #num1{
       padding:12px;
-      font-size:12px;
 }
 #num2{
             padding:12px;
-            font-size:12px;
 }
 #num3{
       padding:12px;
-      font-size:12px;
 }
 #num4{
       padding:12px;
-      font-size:12px;
 }
