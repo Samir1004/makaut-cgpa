@@ -13,8 +13,10 @@ div{
             text-align: center;
         }
         button{
-            color:beige;
+            color:white;
             background-color: green;
+            padding:10px;
+            margin:0;
         }
         pre{
             color:white;
@@ -37,16 +39,3 @@ div{
             
            padding:0;
         }
-#num1{
-      padding:12px;
-            box-sizing:border-box;
-}
-#num2{
-            padding:12px;
-}
-#num3{
-      padding:12px;
-}
-#num4{
-      padding:12px;
-}
