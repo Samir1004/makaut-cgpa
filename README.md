@@ -1,1 +1,1 @@
-Makaut sgpa calculator making
+Makaut sgpa calculator for calculate ygpa and total marks easily.
