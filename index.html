@@ -11,11 +11,17 @@
         /* start security coding */
         document.addEventListener('keydown', function(e){
         if(e.ctrlKey && e.key ==='u' ){
-        alert("View source is not allowed");
+        e.preventDefault();
+        alert("View page source is not allowed");
         }
         if(e.ctrlKey && e.key==='c'){
-            alert("Copy is not allowed");
+            e.preventDefault();
+            alert("Copy is not allow");
         }
+        if(e.ctrlKey && e.shiftKey && (e.key ==='I'|| e.keyCode===73)){
+        e.preventDefault();
+        alert("Ctrl+shift+I is disable");
+    }
         });
         
         /* end security coding */
