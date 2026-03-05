@@ -7,6 +7,23 @@
 </head>
 <body background="back.jpg">
     <script>
+        /* start security coding */
+        document.addEventListener('keydown', function(e){
+        if(e.ctrlKey && e.shiftKey ==='u' ){
+        alert("View source is not allowed");
+        }
+        if(e.ctrlKey && e.key==='c'){
+            alert("Copy is not allowed");
+        }
+        });
+        document.addEventListener('contextmenu', text{
+        }
+         function test(){
+             alert("Right click is not allowed");
+         }
+        );
+        /* end security coding */
+        
         function add()
         {
             var n1=parseFloat(document.getElementById("num1").value);
